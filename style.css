@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+:root{
+    --bg: #131417;
+    --archivo_black: "Archivo Black", sans-serif;
+    --text-white: #FFFFFF;
+    --lato: "Lato", sans-serif;;
+
+}
+/* common class */
+.container_first{
+    max-width: 1140px;
+    margin: auto;
+}
+.container__second{
+    max-width: 1415px;
+}
+.banner{
+    background-color: var(--bg);
+}
+.banner .container_first{
+    border: 1px solid white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+.banner__left{
+    align-self: center;
+}
+.banner__left__textarea{
+    display: flex;
+    gap: 5px;
+}
+
+.banner__left__textarea h1{
+    font-family: var(--archivo_black);
+    font-size: 38px;
+    color: var(--text-white);
+    max-width: 500px;
+}
+.banner__left button{
+    background-color: #41cf67;
+    color: #131417;
+    padding: 15px 30px 15px 30px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.banner__left p{
+    font-family: var(--lato);
+    color: var(--text-white);
+    font-size: 18px;
+    line-height: 26px;
+    word-spacing: 2px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    max-width: 550px;
+}
+
+.banner .banner__right{
+    height: 410px;
+    background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%);
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+.banner__right__cards--card_one{
+    max-width: 300px;
+    height: 130px;
+    background: #1D1E22;
+    border-radius: 10px;
+}
