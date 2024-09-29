@@ -7,7 +7,8 @@
     --bg: #131417;
     --archivo_black: "Archivo Black", sans-serif;
     --text-white: #FFFFFF;
-    --lato: "Lato", sans-serif;;
+    --lato: "Lato", sans-serif;
+    --text-gray: #4C4F5A;
 
 }
 /* common class */
@@ -74,3 +75,59 @@
     background: #1D1E22;
     border-radius: 10px;
 }
+.banner__right__cards--card_one--head{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+    
+}
+.banner__right__cards--card_one--head--left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.banner__right__cards--card_one--head--left h1{
+    font-family: var(--lato);
+    color: var(--text-white);
+    font-size: 14px;
+}
+.banner__right__cards--card_one--head--left span {
+    color: var(--text-gray);
+    font-size: 16px;
+}
+
+.banner__right__cards--card_one--head--right span{
+    color: var(--text-gray);
+    font-size: 16px;
+}
+code{
+    margin-left: 10px;
+}
+.HeaderHero-module_cr-fFw5b{
+    color: #b6872f;
+    font-size: 14px;
+    font-family: var(--lato);
+}
+
+.HeaderHero-module_cy-8gEKF{
+    color: #E1CA72;
+    font-size: 14px;
+    font-family: var(--lato);
+}
+
+.HeaderHero-module_cy-Dfic4{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: var(--lato);
+}
+
+.HeaderHero-module_cg-SDmKV{
+    color: #74B087;
+    font-size: 14px;
+    font-family: var(--lato);
+}
+
+
+
